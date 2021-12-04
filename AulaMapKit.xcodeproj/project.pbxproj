@@ -16,6 +16,9 @@
 		D5F0DF6C275AA4FA006E46F0 /* AulaMapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0DF6B275AA4FA006E46F0 /* AulaMapKitTests.swift */; };
 		D5F0DF76275AA4FA006E46F0 /* AulaMapKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0DF75275AA4FA006E46F0 /* AulaMapKitUITests.swift */; };
 		D5F0DF78275AA4FA006E46F0 /* AulaMapKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0DF77275AA4FA006E46F0 /* AulaMapKitUITestsLaunchTests.swift */; };
+		D5F0DF86275AAA44006E46F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F0DF85275AAA44006E46F0 /* MapKit.framework */; };
+		D5F0DF88275AAA5E006E46F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F0DF87275AAA5E006E46F0 /* CoreLocation.framework */; };
+		D5F0DF8A275AAA69006E46F0 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F0DF89275AAA69006E46F0 /* CoreLocationUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D5F0DF71275AA4FA006E46F0 /* AulaMapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AulaMapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F0DF75275AA4FA006E46F0 /* AulaMapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaMapKitUITests.swift; sourceTree = "<group>"; };
 		D5F0DF77275AA4FA006E46F0 /* AulaMapKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaMapKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5F0DF85275AAA44006E46F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D5F0DF87275AAA5E006E46F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D5F0DF89275AAA69006E46F0 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F0DF88275AAA5E006E46F0 /* CoreLocation.framework in Frameworks */,
+				D5F0DF8A275AAA69006E46F0 /* CoreLocationUI.framework in Frameworks */,
+				D5F0DF86275AAA44006E46F0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 				D5F0DF6A275AA4FA006E46F0 /* AulaMapKitTests */,
 				D5F0DF74275AA4FA006E46F0 /* AulaMapKitUITests */,
 				D5F0DF52275AA4F7006E46F0 /* Products */,
+				D5F0DF84275AAA43006E46F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +135,16 @@
 				D5F0DF77275AA4FA006E46F0 /* AulaMapKitUITestsLaunchTests.swift */,
 			);
 			path = AulaMapKitUITests;
+			sourceTree = "<group>";
+		};
+		D5F0DF84275AAA43006E46F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0DF89275AAA69006E46F0 /* CoreLocationUI.framework */,
+				D5F0DF87275AAA5E006E46F0 /* CoreLocation.framework */,
+				D5F0DF85275AAA44006E46F0 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
